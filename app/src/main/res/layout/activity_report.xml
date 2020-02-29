@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parnt"
+    android:background="@color/icon"
+    tools:context=".report">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/startTime"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/startLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="5dp"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/startTime"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="5dp"
+
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/endLocation"  />
+
+    <!--                android:textSize="10dp"-->
+
+
+    <TextView
+        android:id="@+id/endLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/startLocation" />
+
+    <CheckBox
+        android:id="@+id/mission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mission"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <LinearLayout
+        android:id="@+id/makeAction"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.350 ">
+
+
+        <TextView
+            android:id="@+id/listDeductionText"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="      Make Action"
+            android:textAllCaps="false"
+            android:textColor="@color/icon"
+            android:textColorLink="#00FCF8F8"
+            android:textSize="25sp"
+
+
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/trueFalse"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:src="@drawable/correct"
+
+            />
+
+
+    </LinearLayout>
+
+<!--    <ScrollView-->
+
+<!--        android:id="@+id/scrollmonth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="75dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.768"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/deduction"-->
+<!--        android:layout_width="163dp"-->
+<!--        android:layout_height="110dp"-->
+
+
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+
+
+<!--        >-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/deduction4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:orientation="vertical">-->
+<!--            <TextView-->
+<!--                android:id="@+id/deduction4Text"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:text="deduction 1/4 day"-->
+<!--                android:textAllCaps="false"-->
+
+<!--                android:textColor="@color/icon"-->
+<!--                android:textColorLink="#00FCF8F8"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/deductionHalf"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:orientation="vertical">-->
+<!--            &lt;!&ndash;                android:textSize="10dp"&ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/deductionHalfText"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:text="deduction 1/2 day"-->
+<!--                android:textAllCaps="false"-->
+
+<!--                android:textColor="@color/icon"-->
+<!--                android:textColorLink="#00FCF8F8"-->
+
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/deduction4text"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:text="deduction 1/4 day"-->
+<!--                android:textAllCaps="false"-->
+
+<!--                android:textColor="@color/icon"-->
+<!--                android:textColorLink="#00FCF8F8"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/deduction1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/deduction1text"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:text="deduction 1 day"-->
+<!--                android:textAllCaps="false"-->
+
+<!--                android:textColor="@color/icon"-->
+<!--                android:textColorLink="#00FCF8F8"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/deduction2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:orientation="vertical">-->
+<!--            &lt;!&ndash;                android:textSize="10dp"&ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/deduction2Text"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:text="deduction 2 day"-->
+<!--                android:textAllCaps="false"-->
+
+<!--                android:textColor="@color/icon"-->
+<!--                android:textColorLink="#00FCF8F8"-->
+
+<!--                />-->
+
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--    </ScrollView>-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="list of deduction : "
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mission"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:textColor="@color/colorAccent"/>
+
+    <RadioGroup
+        android:id="@+id/deduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="deduction 1/4 day"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="deduction 1/2 day"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="deduction 1 day"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="deduction 2 day"
+            android:onClick="onRadioButtonClicked"/>
+
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:checked = "true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="no deduction"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:textColor="@color/icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953"
+        android:background="@color/colorAccent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "765288754279",
+    "firebase_url": "https://monitory-bb438.firebaseio.com",
+    "project_id": "monitory-bb438",
+    "storage_bucket": "monitory-bb438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765288754279:android:618004379c783cac41b8c2",
+        "android_client_info": {
+          "package_name": "com.aymansaad.monitortl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765288754279-b0cd0u4p50f7p408npph2bb0nhl9f0er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aymansaad.monitortl",
+            "certificate_hash": "1a17ef6a1708bebae9effb42fcfd576247704560"
+          }
+        },
+        {
+          "client_id": "765288754279-qjmegnfb94hpac7r54h92d08tq9po9ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aymansaad.monitortl",
+            "certificate_hash": "f6fb75262d9c981a2526ec7edae71f4b4ae94e8f"
+          }
+        },
+        {
+          "client_id": "765288754279-ns826jkmj9r9oqd9mbhhj4rha8ehrl3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCM278kJnpfAWez96Ryk-xHHEi4-zHpj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765288754279-ns826jkmj9r9oqd9mbhhj4rha8ehrl3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765288754279:android:19bc3e9cfa1703a941b8c2",
+        "android_client_info": {
+          "package_name": "com.example.monitory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765288754279-jl6i1i66t39091ejo53el2bj43llg3d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monitory",
+            "certificate_hash": "1a17ef6a1708bebae9effb42fcfd576247704560"
+          }
+        },
+        {
+          "client_id": "765288754279-lrlu00fjmoti07isbl6uds9e02s7fngl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monitory",
+            "certificate_hash": "bde73614ebee3fa0a445aa9f6e72bff63ba0bb5e"
+          }
+        },
+        {
+          "client_id": "765288754279-ns826jkmj9r9oqd9mbhhj4rha8ehrl3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCM278kJnpfAWez96Ryk-xHHEi4-zHpj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765288754279-ns826jkmj9r9oqd9mbhhj4rha8ehrl3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
